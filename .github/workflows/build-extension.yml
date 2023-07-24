@@ -1,0 +1,21 @@
+name: Build and Release Extension
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+defaults:
+  run:
+    shell: bash
+    working-directory: ./
+
+jobs:
+  build-extension-chart:
+    uses: jordojordo/ui-chart-workflow/.github/workflows/build-extension-chart.yml@main
+    with:
+      target_branch: gh-pages
