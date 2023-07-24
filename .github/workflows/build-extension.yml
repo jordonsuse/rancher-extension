@@ -1,4 +1,4 @@
-name: Build and Release Extension
+name: Build and Release Extension Chart Repository
 
 on:
   workflow_dispatch:
@@ -17,5 +17,13 @@ defaults:
 jobs:
   build-extension-chart:
     uses: jordojordo/ui-chart-workflow/.github/workflows/build-extension-chart.yml@main
+    permissions:
+      actions: write
+      contents: write
+      deployments: write
+      id-token: write
+      packages: write
+      pages: write
+      pull-requests: write
     with:
-      target_branch: gh-pages
+      TARGET_BRANCH: gh-pages
