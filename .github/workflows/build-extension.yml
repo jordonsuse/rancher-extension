@@ -26,4 +26,4 @@ jobs:
       pages: write
       pull-requests: write
     with:
-      TARGET_BRANCH: gh-pages
+      target_branch: gh-pages
