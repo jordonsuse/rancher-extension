@@ -12,9 +12,9 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-07-26T17:38:56.745553388Z"
+    created: "2023-07-26T17:48:33.026044666Z"
     description: test-pkg plugin
-    digest: 052cd4d5704f8a0159a0fe980803d202ea3b0648183d00c7fe0aa2499f159185
+    digest: 4a70270f9e6a7e2cac27b262afd8dcd7380c4c581c41d8e42ecee940ded6d55f
     name: test-pkg
     type: application
     urls:
@@ -31,13 +31,32 @@ entries:
       catalog.cattle.io/scope: management
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-07-26T17:38:56.745995092Z"
+    appVersion: 0.1.1
+    created: "2023-07-26T17:48:33.026366892Z"
     description: test-pkg-2 plugin
-    digest: 4e49b097dd9924d3738802069031a910b261e5b239c0a667e5d2d329a899826e
+    digest: ca4011a5f2e042ec690ba716faa3e9c1d229709e2256ff3824ba6cc8a8df43d2
     name: test-pkg-2
     type: application
     urls:
-    - assets/test-pkg-2/test-pkg-2-0.1.0.tgz
+    - assets/test-pkg-2/test-pkg-2-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.28.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.8.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-07-26T17:39:22.872776205Z"
+    description: test-pkg-2 plugin
+    digest: 31c63102d2119f0dd09dea82eab2265991ab7816e4c1207881a9a61dbe4119de
+    name: test-pkg-2
+    type: application
+    urls:
+    - https://github.com/jordonsuse/rancher-extension/releases/download/test-pkg-2-0.1.0/test-pkg-2-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-26T17:38:56.744927683Z"
+generated: "2023-07-26T17:48:33.025566827Z"
