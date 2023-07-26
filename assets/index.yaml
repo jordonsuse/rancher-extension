@@ -12,9 +12,9 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-07-26T17:48:33.026044666Z"
+    created: "2023-07-26T18:10:02.179613318Z"
     description: test-pkg plugin
-    digest: 4a70270f9e6a7e2cac27b262afd8dcd7380c4c581c41d8e42ecee940ded6d55f
+    digest: db0aa26bf8c942f54c9ea499172ff94ac039e2a65ac8bbe64138d78eab295524
     name: test-pkg
     type: application
     urls:
@@ -32,9 +32,9 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.1
-    created: "2023-07-26T17:48:33.026366892Z"
+    created: "2023-07-26T18:10:02.179911135Z"
     description: test-pkg-2 plugin
-    digest: ca4011a5f2e042ec690ba716faa3e9c1d229709e2256ff3824ba6cc8a8df43d2
+    digest: 55df2e99a574b4433ec07e72ca359e1b0ac75e74b3b1f8dfc4645917bce16a65
     name: test-pkg-2
     type: application
     urls:
@@ -59,4 +59,4 @@ entries:
     urls:
     - https://github.com/jordonsuse/rancher-extension/releases/download/test-pkg-2-0.1.0/test-pkg-2-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-26T17:48:33.025566827Z"
+generated: "2023-07-26T18:10:02.179123991Z"
